@@ -3,4 +3,4 @@
 #test3
 #test4 code scanning enabled
 FROM node:alpine3.17
-apk add python
+RUN apk add python
