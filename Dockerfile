@@ -3,4 +3,4 @@
 #test3
 #test4 code scanning enabled
 FROM node:alpine3.17
-RUN apk add python
+RUN apk add --no-cache python3 py-pip openssl ca-certificates python3-dev build-base wget
